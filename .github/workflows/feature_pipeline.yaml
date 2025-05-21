@@ -1,9 +1,9 @@
 name: citibike_feature_engineering_pipeline
 
-on:
-  schedule:
-    - cron: '2 * * * *' # Runs every hour
-  workflow_dispatch: # Allows manual triggering of the workflow
+# on:
+#   schedule:
+#     - cron: '2 * * * *' # Runs every hour
+#   workflow_dispatch: # Allows manual triggering of the workflow
 
 jobs:
   run-python-script:
